@@ -1,0 +1,44 @@
+// ========================================
+// Claude Code 設定ファイル
+// ~/.config/claude-code/settings.json
+// ========================================
+
+/*
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/notify-slack.js"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/notify-slack.js"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/notify-slack.js"
+          }
+        ]
+      }
+    ]
+  }
+}
+*/
